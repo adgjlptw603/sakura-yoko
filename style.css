@@ -15,8 +15,7 @@ header {
   width: 100%;
   height: 100px;
   background-color: darkgreen;
-  padding: 0;
-  margin: 0 auto;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -26,18 +25,19 @@ header .heading a {
 
 .nav-list {
   text-align: center;
-  padding: 10px;
-  margin: 0 auto;
+  padding: 10px 0 10px 0;
 }
 
 .nav-list-item {
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 20px ;
   color: #fff;
 }
 
 main {
+  width: 100%;
+  display:inline-block;
   padding: 10px 40px 40px 40px;
   background-color: #ecfcdf;
 }
@@ -58,8 +58,8 @@ main {
   justify-content: center;
   width: 30%;
   margin-right: 10px; /*自己紹介領域との隙間を空ける*/
-  padding-bottom: 25px;
-  border-radius: 10px;
+  padding-bottom: 50px;
+
 }
 
 .my-picture {
@@ -97,16 +97,15 @@ footer {
   height: 100px;
   background-color: darkgreen;
   text-align: center;
-  line-height: 120px;
+  line-height: 100px;
 }
 
 .footer-text {
   color: #fff;
 }
 
-.div {
-  text-align: center;
-}
+
+
 
 /*タブレット横置きサイズ(1024px)以下の際に適用される設定*/
 @media  screen and (max-width:1024px) {
